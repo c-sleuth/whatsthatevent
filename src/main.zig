@@ -582,7 +582,7 @@ const events = [_]struct { []const u8, []const u8} {
 };
 
 fn usage() void {
-    const usage_message = "usage: whatistheevent [-h] [--legacy] event_id\n\npositional arguments:\nevent_id    event id to query from Win2008, Win2012R2, Win2016 and Win10+, and Win2019\n\noptions:\n-h, --help  show this help message and exit \n--legacy    event id to query from Win2000, XP, and Win2003";
+    const usage_message = "usage: whatsthatevent [-h] [--legacy] event_id\n\npositional arguments:\nevent_id    event id to query from Win2008, Win2012R2, Win2016 and Win10+, and Win2019\n\noptions:\n-h, --help  show this help message and exit \n--legacy    event id to query from Win2000, XP, and Win2003";
     print("{s}", .{ usage_message } );
 }
 
