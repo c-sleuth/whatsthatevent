@@ -43,3 +43,6 @@ $ whatsthatevent --legacy 512
 Legacy event ID: 512: Windows NT is starting up
 ```
 
+## Mentions
+
+Event log ids and descriptions have come from https://www.ultimatewindowssecurity.com/securitylog/encyclopedia/default.aspx
