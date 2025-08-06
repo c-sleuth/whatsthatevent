@@ -18,7 +18,7 @@ Event logs from the following versions are available
 
 
 ```
-usage: whatistheevent [-h] [--legacy] event_id
+usage: whatsthatevent [-h] [--legacy] event_id
 
 positional arguments:
 event_id    event id to query from Win2008, Win2012R2, Win2016 and Win10+, and Win2019
@@ -42,3 +42,4 @@ $ whatsthatevent --legacy 512
 
 Legacy event ID: 512: Windows NT is starting up
 ```
+
